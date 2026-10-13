@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Ask-anything AI: a terminal chat assistant powered by Claude.
 
+Setup (one time):
+    pip install anthropic
+    export ANTHROPIC_API_KEY="your-key"   # get one at https://platform.claude.com
+                                          # (Windows: setx ANTHROPIC_API_KEY "your-key")
+
 Usage:
     python ask.py                      # interactive chat
     python ask.py "your question"      # ask one question and exit
